@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-spinners": "^0.13.3"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.3.0",

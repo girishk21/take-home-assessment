@@ -3,3 +3,69 @@ body,
 #root {
   height: 100%;
 }
+body{
+  justify-content: center;
+}
+.feed {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+.image-title{
+  display: flex;
+}
+.image-container img{
+  width:35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.title{
+  color: red;
+  margin: 10px;
+}
+.body{
+  color: dimgrey;
+  margin: 10px;
+  display: inline-block;
+}
+.author{
+  color: rgb(37, 25, 193);
+  margin: 10px;
+}
+.home{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.page-buttons{
+  display: flex;
+}
+.prevButton{
+  transition-duration: 0.4s;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  justify-content: flex-start;
+}
+.prevButton:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+.nextButton{
+  transition-duration: 0.4s;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  margin-left: 88%;
+}
+.nextButton:hover{
+  background-color: #4CAF50;
+  color: white;
+}
